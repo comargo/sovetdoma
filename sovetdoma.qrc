@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/exclamation-small-red.png</file>
+    </qresource>
+</RCC>
