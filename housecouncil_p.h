@@ -2,6 +2,7 @@
 #define HOUSECOUNCIL_P_H
 
 #include "housecouncil.h"
+#include "qxtcsvmodel/qxtcsvmodel.h"
 
 class HouseCouncilPrivate
 {
@@ -12,6 +13,7 @@ public:
     bool isModified;
     QString path;
     QString address;
+    QxtCsvModel *ownersRegistry;
 
     // Methods
     bool open();

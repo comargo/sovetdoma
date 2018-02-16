@@ -1,0 +1,3 @@
+[submodule "qxtcsvmodel"]
+	path = qxtcsvmodel
+	url = https://github.com/comargo/qxtcsvmodel.git
